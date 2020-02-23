@@ -32,7 +32,7 @@ public class RemoteControlPC extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        stage.setTitle("RemoteControlPC");
+        stage.setTitle("Reflector");
         stage.setOnCloseRequest(e -> {
             Platform.exit();
             System.exit(0);
